@@ -28,7 +28,6 @@ const App = () => {
                     accessToken,
                     email,
                 }))(user);
-            console.log(setCurrentUser(pickedUser));
             dispatch(setCurrentUser(pickedUser));
         });
 

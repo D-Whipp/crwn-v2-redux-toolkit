@@ -49,9 +49,6 @@ const PaymentForm = () => {
             paymentIntent: { client_secret },
         } = response;
 
-        // console.log('Payment Response: ', response);
-        // console.log('User: ', currentUser.email);
-
         const paymentResult = await stripe.confirmCardPayment(
             client_secret,
             {
