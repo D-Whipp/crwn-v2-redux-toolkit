@@ -28,8 +28,8 @@ const Navigation = () => {
             <NavigationContainer>
                 <LogoContainer to="/">
                     <CrwnLogo className="logo" />
-                    </LogoContainer>
-                    <WebsiteName>Empress Clothing</WebsiteName>
+                </LogoContainer>
+                <WebsiteName to="/">Empress Clothing</WebsiteName>
                 <NavLinks>
                     <NavLink to="/shop">SHOP</NavLink>
 

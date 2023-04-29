@@ -16,7 +16,7 @@ export const LogoContainer = styled(Link)`
     display: inline;
 `;
 
-export const WebsiteName = styled.div`
+export const WebsiteName = styled(Link)`
     font-size: 48px;
     line-height: 1.4;
     font-family: 'Open Sans Condensed', sans-serif;
