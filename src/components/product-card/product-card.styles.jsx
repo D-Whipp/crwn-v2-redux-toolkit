@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 
-export const ProductCartContainer = styled.div`
+export const ProductCardContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
     height: 350px;
     align-items: center;
     position: relative;
+    border: 1px solid black;
+    padding: 2px 2px 8px 2px;
+    background-color: #bbb;
 
     img {
         width: 100%;
@@ -34,7 +37,7 @@ export const ProductCartContainer = styled.div`
         }
 
         img {
-            transform: scale(1.1);
+            transform: scale(1.025);
             transition: transform 6s
                 cubic-bezier(0.25, 0.45, 0.45, 0.95);
         }
